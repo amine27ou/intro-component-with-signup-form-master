@@ -6,7 +6,6 @@ submitBtn.addEventListener("click",function(e){
     inputs.forEach(function(input){
         if(!input.value){
             input.parentElement.classList.add("error");
-            console.log(input.parentElement)
         }
         else{
             input.parentElement.classList.remove("error");

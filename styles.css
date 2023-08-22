@@ -8,7 +8,10 @@
 }
 .header{
     padding: 6% 10%;
-    background: url("../images/bg-intro-desktop.png"), #ff7a7a;
+    background: url("images/bg-intro-desktop.png"), #ff7a7a;
+}
+.header .col h1{
+    font-size: 40px;
 }
 .row{
     display: flex;
